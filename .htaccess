@@ -1,0 +1,28 @@
+RewriteEngine on
+SetEnvIf referer "^$" local_ref=1
+ErrorDocument 404 /error404.php
+
+RewriteRule index.html$ index.php
+RewriteRule portfolio-item01.html$ portfolio-item01.php
+RewriteRule portfolio-item02.html$ portfolio-item02.php
+RewriteRule portfolio-item03.html$ portfolio-item03.php
+RewriteRule portfolio-item04.html$ portfolio-item04.php
+
+RewriteRule portfolio-item05.html$ portfolio-item05.php
+RewriteRule portfolio-item06.html$ portfolio-item06.php
+RewriteRule portfolio-item07.html$ portfolio-item07.php
+RewriteRule portfolio-item08.html$ portfolio-item08.php
+RewriteRule portfolio-item09.html$ portfolio-item09.php
+RewriteRule portfolio-item10.html$ portfolio-item10.php
+RewriteRule portfolio-item11.html$ portfolio-item11.php
+
+RewriteRule portfolio-item12.html$ portfolio-item12.php
+RewriteRule portfolio-item13.html$ portfolio-item13.php
+RewriteRule portfolio-item14.html$ portfolio-item14.php
+RewriteRule portfolio-item15.html$ portfolio-item15.php
+RewriteRule portfolio-item16.html$ portfolio-item16.php
+RewriteRule portfolio-item17.html$ portfolio-item17.php
+RewriteRule portfolio-item18.html$ portfolio-item18.php
+
+
+
